@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Coffee House</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Coffee House, where we serve the best coffee in town. Our cozy atmosphere and friendly staff will make you feel at home.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <span class="coffee-name">Espresso</span> - Rich and bold.
+                <button class="buy-button" onclick="buyCoffee('Espresso')">Buy</button>
+            </li>
+            <li>
+                <span class="coffee-name">Cappuccino</span> - Creamy and frothy.
+                <button class="buy-button" onclick="buyCoffee('Cappuccino')">Buy</button>
+            </li>
+           <!-- Add this code to your existing menu section -->
+<li>
+    <span class="coffee-name">Americano</span> - A classic choice with a bold taste.
+    <button class="buy-button" onclick="buyCoffee('Americano')">Buy</button>
+</li>
+<li>
+    <span class="coffee-name">Latte</span> - Smooth and comforting.
+    <button class="buy-button" onclick="buyCoffee('Latte')">Buy</button>
+</li>
+            <!-- Add similar buttons for other coffee items -->
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, please don't hesitate to contact us:</p>
+        <address>
+            Email: <a href="mailto:info@coffeehouse.com">info@coffeehouse.com</a><br>
+            Phone: <a href="tel:+123456789">123-456-789</a>
+        </address>
+    </section>
+
+    <footer>
+        &copy; 2023 Coffee House
+    </footer>
+
+    <!-- Link to JavaScript file here -->
+    <script src="index.js"></script>
+
+    <script>
+        // JavaScript code for handling coffee purchases
+        function buyCoffee(coffeeName) {
+            alert(`You have purchased a ${coffeeName}! Enjoy your coffee.`);
+            // You can add more functionality here, such as processing orders.
+        }
+    </script>
+</body>
+</html>

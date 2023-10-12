@@ -1,0 +1,41 @@
+{
+    "menu": [
+      {
+        "name": "Espresso",
+        "description": "A concentrated coffee brewed by forcing a small amount of nearly boiling water through finely-ground coffee beans.",
+        "price": 2.50,
+        "image": "https://example.com/espresso.jpg"
+      },
+      {
+        "name": "Cappuccino",
+        "description": "An espresso-based coffee made with equal parts of espresso, steamed milk, and milk foam.",
+        "price": 3.50,
+        "image": "https://example.com/cappuccino.jpg"
+      },
+      {
+        "name": "Latte",
+        "description": "A coffee drink made with espresso and steamed milk, often topped with a small amount of milk foam.",
+        "price": 4.00,
+        "image": "https://example.com/latte.jpg"
+      },
+      {
+        "name": "American Coffee",
+        "description": "A simple, brewed coffee made by diluting espresso with hot water, resulting in a mild, smooth flavor.",
+        "price": 2.00,
+        "image": "https://example.com/americano.jpg"
+      },
+      {
+        "name": "Mocha",
+        "description": "A chocolate-flavored espresso drink made with espresso, hot milk, and cocoa, often topped with whipped cream.",
+        "price": 4.50,
+        "image": "https://example.com/mocha.jpg"
+      },
+      {
+        "name": "Caramel Macchiato",
+        "description": "An espresso-based coffee made with vanilla syrup, steamed milk, and caramel drizzle.",
+        "price": 4.50,
+        "image": "https://example.com/caramel_macchiato.jpg"
+      }
+    ]
+  }
+  

@@ -1,0 +1,87 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #252525;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Style section headers */
+h2 {
+    color: #252525;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style sections */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style links */
+a {
+    color: #ff6f61;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #e5574c;
+}
+
+/* Style the "Buy Coffee" buttons */
+.buy-button {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #e5574c;
+}
+
+/* Style the footer */
+footer {
+    background-color: #252525;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Center text in sections */
+section h2, section p, section ul {
+    text-align: center;
+}
