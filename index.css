@@ -51,7 +51,7 @@
     background-color: #27ae60;
 }
 
-/* Display coffee cards in a row */
+
 .coffee-cards {
     display: flex;
     flex-wrap: wrap; /* Wrap coffee cards to the next line if they don't fit in the container */
