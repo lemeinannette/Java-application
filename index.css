@@ -1,87 +1,104 @@
-
-body, h1, h2, p {
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Set a background color and text color for the entire page */
 body {
-    background-color: #f8f8f8;
-    color: #333;
     font-family: 'Arial', sans-serif;
+    background-color: #f9f7f7;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-/* Style the header */
 header {
-    background-color: #252525;
+    background-color: beige;
     color: #fff;
     text-align: center;
-    padding: 20px;
-    font-size: 36px;
+    padding: 20px 0;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-style: italic;
 }
 
-/* Style the navigation menu */
 nav ul {
-    list-style: none;
-    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
 }
 
-nav li {
-    display: inline;
+nav ul li {
     margin: 0 20px;
 }
 
-/* Style section headers */
-h2 {
-    color: #252525;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-/* Style sections */
-section {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-/* Style links */
-a {
-    color: #ff6f61;
+nav ul li a {
     text-decoration: none;
+    color: #fff;
+    font-weight: bold;
     transition: color 0.3s;
 }
 
-a:hover {
-    color: #e5574c;
+nav ul li a:hover {
+    color: #ffae42;
 }
 
-/* Style the "Buy Coffee" buttons */
+section {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center; /* Center-align the content */
+}
+
+h1, h2 {
+    color: #ffae42;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul li {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.coffee-name {
+    color: #ffae42;
+    font-weight: bold;
+}
+
 .buy-button {
-    background-color: #ff6f61;
+    background-color: #ffae42;
     color: #fff;
-    padding: 12px 24px;
     border: none;
-    border-radius: 5px;
+    padding: 10px 20px;
     cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
     transition: background-color 0.3s;
 }
 
 .buy-button:hover {
-    background-color: #e5574c;
+    background-color: #f39400;
 }
 
-/* Style the footer */
-footer {
-    background-color: #252525;
-    color: #fff;
-    text-align: center;
-    padding: 15px;
+.coffee-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-/* Center text in sections */
-section h2, section p, section ul {
+ul#menu {
     text-align: center;
+}
+
+#contact {
+    text-align: center; /* Center-align the content in the contact section */
 }
