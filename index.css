@@ -1,104 +1,102 @@
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f7f7;
-    color: #333;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: beige;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 24px;
-    letter-spacing: 2px;
-    font-style: italic;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    background-color: #444;
-    padding: 10px 0;
-}
-
-nav ul li {
-    margin: 0 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #ffae42;
-}
-
-section {
+/* Common styles for coffee cards */
+.coffee-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    text-align: center; /* Center-align the content */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Reduce the maximum width of the coffee card */
+    margin: 10px;
+    display: inline-block; /* Display coffee cards in a row */
 }
 
-h1, h2 {
-    color: #ffae42;
+.coffee-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.coffee-card img {
+    max-width: 100%;
+    max-height: 150px; /* Reduce the maximum height of the images */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-ul li {
-    flex-basis: calc(33.33% - 20px);
-    margin-bottom: 20px;
+.coffee-card p {
+    font-size: 16px;
 }
 
-.coffee-name {
-    color: #ffae42;
-    font-weight: bold;
+/* Apply different colors to coffee names */
+.coffee-card:nth-child(odd) h3 {
+    color: #e74c3c; /* Espresso and other odd-indexed items */
 }
 
-.buy-button {
-    background-color: #ffae42;
+.coffee-card:nth-child(even) h3 {
+    color: #3498db; /* Cappuccino and other even-indexed items */
+}
+
+/* Style the Buy button */
+.coffee-card button {
+    background-color: #2ecc71;
     color: #fff;
     border: none;
     padding: 10px 20px;
-    cursor: pointer;
     border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+    font-size: 18px;
+    cursor: pointer;
 }
 
-.buy-button:hover {
-    background-color: #f39400;
+.coffee-card button:hover {
+    background-color: #27ae60;
 }
 
-.coffee-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+/* Display coffee cards in a row */
+.coffee-cards {
+    display: flex;
+    flex-wrap: wrap; /* Wrap coffee cards to the next line if they don't fit in the container */
 }
 
-ul#menu {
+/* Center align and style the title (h1) */
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+/* Center align and style h2 text */
+h2 {
     text-align: center;
 }
 
-#contact {
-    text-align: center; /* Center-align the content in the contact section */
+/* Center align and style h3 text */
+h3 {
+    text-align: center;
+}
+
+/* Style the contact section with decoration */
+.contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.contact h3 {
+    font-style: italic;
+    font-size: 24px;
+    color: #333; /* Dark gray text color */
+}
+
+.contact p {
+    font-size: 18px;
+    color: #3498db; /* Blue text color */
+    margin-top: 20px; /* Add some top margin to separate it from the rest of the content */
+}
+
+/* Center-align and style the email part */
+.email {
+    text-align: center;
+    color: #3498db; /* Blue text color */
 }
