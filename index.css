@@ -100,3 +100,8 @@ h3 {
     text-align: center;
     color: #3498db; /* Blue text color */
 }
+
+/* Style the About Us section */
+#about {
+    font-style: italic;
+}
