@@ -1,6 +1,5 @@
 Coffee Menu Web App
 The Coffee Menu Web App is a simple web application that allows users to explore a variety of coffee options and purchase their favorite coffee. It fetches coffee data from a JSON file and provides an intuitive user interface for browsing the menu and placing orders.
-
 Features
 View an extensive coffee menu with detailed descriptions.
 Purchase coffee with a single click.
@@ -22,7 +21,7 @@ If you'd like to contribute to this project, please fork the repository and crea
 
 Credits
 This project was developed by [Lemein Annette].
-
+*|*
 
 
 
