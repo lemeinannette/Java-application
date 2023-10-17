@@ -14,6 +14,8 @@
 .coffee-card h3 {
     font-size: 24px;
     margin: 10px 0;
+    font-style: italic; /* Add italics to the coffee names */
+    text-decoration: underline; /* Add underlining to the coffee names */
 }
 
 .coffee-card img {
@@ -25,6 +27,7 @@
 
 .coffee-card p {
     font-size: 16px;
+    font-style: italic; /* Add italics to the coffee descriptions */
 }
 
 /* Apply different colors to coffee names */
@@ -51,18 +54,18 @@
     background-color: #27ae60;
 }
 
-
 .coffee-cards {
     display: flex;
     flex-wrap: wrap; /* Wrap coffee cards to the next line if they don't fit in the container */
 }
 
-/* Center align and style the title (h1) */
+/* Center align and style the title (h1) with underline */
 h1 {
     text-align: center;
     font-style: italic;
     font-size: 36px;
     text-transform: uppercase;
+    text-decoration: underline; /* Add underlining to the title */
 }
 
 /* Center align and style h2 text */
@@ -83,25 +86,41 @@ h3 {
     border-top: 1px solid #ddd;
 }
 
-.contact h3 {
+contact h3 {
     font-style: italic;
     font-size: 24px;
     color: #333; /* Dark gray text color */
 }
 
-.contact p {
+contact p {
     font-size: 18px;
-    color: #3498db; /* Blue text color */
+    color: #000; /* Set the email text to black */
     margin-top: 20px; /* Add some top margin to separate it from the rest of the content */
 }
 
-/* Center-align and style the email part */
+/* Center-align and style the email part in black */
 .email {
     text-align: center;
-    color: #3498db; /* Blue text color */
+    color: #000; /* Set the email text to black */
 }
 
 /* Style the About Us section */
 #about {
     font-style: italic;
+}
+
+/* Style the About Us title in black and underline */
+#about h2 {
+    color: #000; /* Set the "About Us" title to black */
+    text-decoration: underline; /* Add underlining to the "About Us" title */
+}
+
+/* Style the About Us description in black */
+#about p {
+    color: #000;
+}
+
+/* Underline the Coffee Menu title */
+#menu h2 {
+    text-decoration: underline;
 }
